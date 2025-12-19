@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TKD Kiosk 설치</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; background:#0b1220; color:#e8eefc; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 24px; }
+    .card { background:#111a2e; border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:18px; }
+    h1 { font-size: 22px; margin: 6px 0 8px; }
+    .sub { color:#b7c4e8; font-size: 14px; margin:0 0 12px; }
+    .btn {
+      display:block; text-align:center; text-decoration:none; font-weight:700;
+      padding:16px 14px; border-radius:14px; background:#3b82f6; color:white;
+      font-size:18px; margin:14px 0;
+    }
+    .btn:active { transform: scale(0.99); }
+    .muted { color:#b7c4e8; font-size: 13px; line-height: 1.55; }
+    .box { background:#0c152b; border:1px dashed rgba(255,255,255,.18); padding:12px; border-radius:14px; margin-top:12px;}
+    code { background:rgba(255,255,255,.08); padding:2px 6px; border-radius:8px; }
+    .small { font-size: 12px; color:#9fb0da; margin-top:14px; }
+    .hr { height:1px; background:rgba(255,255,255,.08); margin:16px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>태권도 채점 키오스크 앱 설치</h1>
+      <p class="sub">아래 버튼을 눌러 APK를 다운로드 후 설치하세요.</p>
+
+      <!-- ✅ 최신 APK 고정 다운로드 링크 -->
+      <a class="btn" href="https://github.com/chaenamchoe/tkd-kiosk/releases/latest/download/tkd-kiosk-latest.apk">
+        1) APK 다운로드
+      </a>
+
+      <div class="box">
+        <div class="muted">
+          <b>2) 설치가 막힐 때(처음 1회만)</b><br/>
+          설정 → 보안 및 개인정보 보호 → 기타 보안 설정 → 알 수 없는 앱 설치 → <b>Chrome 허용</b><br/>
+          다운로드가 끝나면 알림창(다운로드 완료)을 눌러 설치를 진행하세요.
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="muted">
+        <b>업데이트 배포 방식</b><br/>
+        QR은 이 페이지로 고정해두고, 새 버전이 나오면 GitHub Release에
+        <code>tkd-kiosk-latest.apk</code> 이름으로 최신 APK를 올리면 됩니다.
+      </div>
+
+      <p class="small">
+        문제가 있으면 운영자에게 연락하세요.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
